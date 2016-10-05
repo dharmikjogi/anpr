@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	
+	 
+	<link href="css/bootstrap.css" rel="stylesheet">
+	 <link rel="stylesheet" href="css/t.css">
+	 
+	<link href="css/main.css" rel="stylesheet">
+ 
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.min.js"></script>
+	<![endif]-->
+ 
+	<link rel="shortcut icon" href="images/favicon.png">
+	<script src="js/pace.js"></script>
+ 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="preloader"></div>
+	
+    <! -- ******************** MASTHEAD SECTION ******************** -->	
+	<main id="top" class="masthead" role="main">
+		<div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
+						<div class="form-group">
+							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
+								<br/><br/><br/><input class="form-control input-lg" name="text" type="text" id="licence" placeholder="     Licence Number is being fetched   &nbsp;   "><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+							</div>
+							<div class="col-md-5 col-sm-4">
+								<br/><br/><br/><button type="file" class="btn btn-success btn-lg">   Upload image of the car   </button><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+							</div>
+						</div>
+					</form>
+					
+				</div>
+ 
+				<a href="index.html#explore" class="scrollto">
+				<p>SCROLL DOWN TO EXPLORE</p>
+				<p class="scrollto--arrow"><img src="images/scroll_down.png" alt="scroll down arrow"></p>
+				</a>
+		</div><! --/container -->
+	</main><! --/main -->
+ 
+<! -- ********************Details to be displayed**************-->
+<div class="container">
+<div class="wrapper">
+ 
+  
+<div class="block business fl">
+                <h2 class="title">BANK</h2>
+                <!-- CONTENT -->
+                <div class="content">
+                    <p class="price">
+                        Name
+                    </p>
+                    
+                </div>
+                <!-- /CONTENT -->
+
+                <!-- FEATURES -->
+                <ul class="features">
+                    <b>Account no:</b>gd<br/>
+                    <b>Adhar Card no:</b>gugu<br/>
+                    <b>Type:</b>uogu<br/>
+					<b>Balance:</b>gd<br/>
+                    
+                </ul>
+                <!-- /FEATURES -->
+
+                <!-- PT-FOOTER -->
+                <div class="pt-footer">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+                <!-- /PT-FOOTER -->
+            </div>
+</div>
+</div>
+
+    <! -- ******************** FEATURES SECTION ******************** -->	
+	<div class="container" id="explore">
+ 
+		<section class="row heroimg breath">
+			<div class="col-md-12 text-center"> 
+						</div>
+		</section><! --/section -->
+ 
+		<div class="section-title">
+			<h2>More information about Car.</h2>
+
+		</div>
+		
+		<section class="row features">
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="personal.html"><img src="images/service_01.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Owner Details</h3>
+						
+					</div>
+					</a>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+ 
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="car.html"><img src="images/service_02.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Car Detail</h3>
+						
+					</div>
+					</a>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+ 
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="feedback.html"><img src="images/service_03.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Feedback</h3>
+						
+					</div>
+					</a>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+ 
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="Contactus.html"><img src="images/service_04.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Contact us</h3>
+						
+					</div>
+					</a/>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+		</section><! --/section -->
+ 
+
+	 </section><! --/section -->
+ 
+	</div><! --/container -->
+ 
+
+	    </div><! --/container -->
+ 
+ 
+ 
+ 
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/easing.js"></script>
+<script src="js/nicescroll.js"></script>
+ 
+ 
+<script>
+
+
+ $(function() {
+    $('.scrollto, .gototop').bind('click',function(event){
+		 var $anchor = $(this);
+		 $('html, body').stop().animate({
+         scrollTop: $($anchor.attr('href')).offset().top
+          }, 1500,'easeInOutExpo');
+     event.preventDefault();
+      });
+  });
+        
+
+</script>
+ 
+</body>
+</html>

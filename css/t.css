@@ -1,11 +1,4 @@
-/*
-Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pricing-Table?list=tags&tag=pricing_table
-*/
 
-/*--------- Font ------------*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-@import url(http://weloveiconfonts.com/api/?family=fontawesome);
-/* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
@@ -59,8 +52,8 @@ body {
     margin-bottom: 4rem;
 }
 .block{
-    width: 30%;    
-    margin: 0 15px;
+    width: 100%;
+    margin: 20px;
     overflow: hidden;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -73,11 +66,13 @@ body {
     text-transform: capitalize;
     line-height: 2.5;
     position: relative;
+	text-align:center;
 }
 .content{
     position: relative;
     color: #FEFEFE;
     padding: 20px 0 10px 0;
+	text-align:center;
 }
 /*arrow creation*/
 .content:after, .content:before,.pt-footer:before,.pt-footer:after {
@@ -124,8 +119,8 @@ body {
     background: #FFFFFF;
     text-align: left;
     color: #9C9C9C;
-    padding:30px 22%;
-    font-size: 0.9rem;
+    padding:10px 22%;
+    font-size: 20px
 }
 .features li{
     padding:15px 0;
