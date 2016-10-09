@@ -23,12 +23,25 @@
 </head>
 
 <body>
+<div class="col-xs-6 text-right navucon-home">
+<p>MENU</p>
+<a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#">
+<span>
+::before
+::after
+</span>
+</a>
+</div>
 	<div class="preloader"></div>
 	
     <! -- ******************** MASTHEAD SECTION ******************** -->	
 	<main id="top" class="masthead" role="main">
 		<div class="container">
-			
+			<div class="ccontainer">
+			<div class="thumbnail">
+				<a href="index.html" title="Home"><img src="images/home.jpg" height="50px" width="50px"/></a>	
+			</div>
+			</div>
  
 			
  
@@ -37,9 +50,10 @@
 					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
 						<div class="form-group">
 							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0" >
-								<br/><br/><br/><br/><br/><input class="form-control input-lg" name="id" type="text" id="licence" placeholder="    Enter E-mail id  &nbsp;   ">
+							<h2  style="font-family=Comic Sans, Comic Sans MS, cursive, font-weight=bold"><font color="black"><i>Login</font></i></h2>
+								<br/><br/><input class="form-control input-lg" name="id" type="text" id="licence" placeholder="    Enter E-mail id  &nbsp;   ">
 								<br/><br/><input class="form-control input-lg" name="psw" type="text" id="licence" placeholder="    Enter Password  &nbsp;   ">	
-							<br/><br/><button type="submit" class="btn btn-success btn-lg name="sbt" ">Login</button>
+							<br/><br/><button type="submit" class="btn btn-success btn-lg" name="sbt" >Login</button>
 										
 							</div>
 						</div>
@@ -55,9 +69,35 @@
 
 
 </div>
-
-  
+<! -- ******************** FEATURES SECTION ******************** -->	
+	<div class="lcontainer" id="explore">
  
+		<section class="row heroimg breath">
+			 
+		</section><! --/section -->
+  
+ 			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="feedback.html"><img src="images/service_03.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Feedback</h3>
+						
+					</div>
+					</a>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+ 
+			<div class="col-sm-6 col-md-3">
+				<div class="thumbnail"> 
+					<a href="Contactus.html"><img src="images/service_04.png" alt="analytics-icon">
+					<div class="caption">
+						<h3>Contact us</h3>
+						
+					</div>
+					</a/>
+				</div><! --/thumbnail -->
+			</div><! --/col-sm-6-->
+		</section><! --/section -->
  
  
 <script src="js/jquery.js"></script>
