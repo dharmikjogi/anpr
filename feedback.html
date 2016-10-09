@@ -27,26 +27,62 @@
 	
     <! -- ******************** MASTHEAD SECTION ******************** -->	
 	<main id="top" class="masthead" role="main">
+		<div>
+		<div>
+		<h2  style="font-family:Comic Sans, Comic Sans MS, cursive"><i><font color="black">Automatic Number Plate Generation</font></i></h2><br/>
+		</div>
 		<div class="container">
+		<h2 style="font-family:Comic Sans, Comic Sans MS, cursive;font-size:40px;font-weight:600;"><font color="black"><i>Feedback</i></font></h2>
+			<div class="ccontainer">
+			<div class="thumbnail">
+				<br/><a href="index.html" title="Home"><img src="images/home.jpg" height="60px" width="60px"/></a><br/>
+			</div>
+			</div>
+			<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
 			
+			<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+			
+			<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0" >
+			<input type="text" name="fn" class="form-control input-lg" placeholder="Enter Name" required style="margin-left:400px;"><br/><br/>
+			
+			
+			</div>
+			</div>
+			<div class="ccontainer">
+			<div class="thumbnail">
+				<a href="feedback.html" title="Feedback"><img src="images/service_03.png" height="60px" width="60px" alt="analytics-icon"></a><br/>
+			</div>
+			</div>
+			
+			<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+			
+			<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0" >
+			<input type="email" name="en" class="form-control input-lg" placeholder="Enter Email id" style="margin-left:400px;" required><br/><br/>
+			
+			
+			</div>
+			</div>
+			<div class="ccontainer">
+			<div class="thumbnail">
+				<a href="contactus.html" title="Contact Us"><img src="images/service_04.png" height="60px" width="60px" alt="analytics-icon">	</a><br/>	
+			</div>
+			</div>
+			
+			<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+			
+			<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0" >
+			<textarea name="desc" class="form-control input-lg" placeholder="Enter your Message" rows="4" style="margin-left:400px;" required></textarea><br/><br/>
+			<input type="submit" class="btn btn-success btn-lg" name="sbt" style="margin-left:450px;" value="Submit Feedback" >
+			
+			
+			</div>
+			</form>
+			</div>
+			</div>
+		</div>
  
 			
  
-			<div class="row">
-				<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-					<form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
-						<div class="form-group">
-							<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0" >
-								<input type="text" name="fn" class="form-control input-lg" placeholder="Enter Name"><br/><br/><br/><br/>
-								<input type="email" name="en" class="form-control input-lg" placeholder="Enter Email id" ><br/><br/><br/><br/>
-								<input type="text" name="desc" class="form-control input-lg" placeholder="Enter description"><br/><br/><br/><br/>
-								<input type="submit" class="btn btn-success btn-lg" name="sbt" value="Submit Feedback" >
-										
-							</div>
-						</div>
-					</form>
-					<span id="result" class="alertMsg"></span> </div>
-				</div>
  
 				
 		</div><! --/container -->
@@ -57,10 +93,6 @@
 
 </div>
 
-  
- 
- 
- 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/easing.js"></script>
